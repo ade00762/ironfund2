@@ -563,3 +563,24 @@ ul {
   top: -10px;
   width: 120px;
 }
+
+.border-line {
+  border-color: #5cacea;
+}
+.m-right {
+  margin-left: 380px;
+}
+@media (max-width: 768px) {
+  .m-right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .footer-section {
+    height: auto; /* Reset height for mobile */
+    padding-top: 30px; /* Adjust padding for mobile */
+    padding-bottom: 30px; /* Adjust padding for mobile */
+    min-height: 600px; /* Set a minimum height to ensure consistency */
+  }
+}
