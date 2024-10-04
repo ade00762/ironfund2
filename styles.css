@@ -3,7 +3,7 @@ body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 .c-item {
-  height: 500px;
+  height: 600px;
 }
 .navbar {
   position: fixed;
