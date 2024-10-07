@@ -274,6 +274,9 @@ footer {
 .text-dec {
   text-decoration: none;
 }
+.t-all {
+  text-align: end;
+}
 .section-title {
   font-size: 18px;
   color: #999;
@@ -574,6 +577,10 @@ ul {
   .m-right {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .t-all {
+    text-align: start;
   }
 }
 @media (max-width: 768px) {
