@@ -52,7 +52,7 @@ body {
 .dropbtn {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  padding: 8px;
+  padding: 8px 0px;
   font-size: 16px;
   border: none;
 }
@@ -112,6 +112,9 @@ hr {
 .c-img {
   height: 100%;
   object-fit: cover;
+}
+.my-10 {
+  margin-top: 13rem;
 }
 #spin {
   background-color: #5cacea;
@@ -270,7 +273,12 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
-
+.t-all {
+  text-align: end;
+}
+.m-right {
+  margin-left: 380px;
+}
 .text-dec {
   text-decoration: none;
 }
@@ -575,12 +583,11 @@ ul {
 }
 @media (max-width: 768px) {
   .m-right {
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
   }
 
   .t-all {
-    text-align: start;
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -591,3 +598,13 @@ ul {
     min-height: 600px; /* Set a minimum height to ensure consistency */
   }
 }
+/* .m-right {
+    margin-left: auto;
+    margin-right: auto;
+    .your-flex-class {
+      display: flex;
+      justify-content: center;
+    }
+
+  
+  } */
